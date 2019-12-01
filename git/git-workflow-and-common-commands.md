@@ -41,7 +41,7 @@ https://www.atlassian.com/git/tutorials/syncing/git-pull
 {% endtab %}
 {% endtabs %}
 
-**Create a branch:** Before starting new task always create task specific branch from DEV branch. Task specific branch created from DEV allows team to contribute parallel along with other team members. These short-lived branches, in particular, keep team members focused about particular task.
+**Create a branch:** Before starting task always create _**task specific branch**_ from DEV branch. Task specific branch created from DEV allows team to contribute with other members. These short-lived branches, in particular, keep team members focused about particular task.
 
 {% tabs %}
 {% tab title="Git Branch" %}

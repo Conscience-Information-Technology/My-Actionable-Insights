@@ -4,53 +4,68 @@ description: 'My Actionable Insights: developers expected to use only Git Bash f
 
 # MAI Git Workflow & Common Commands
 
-#### The GitHub workflow for My Application Insights.
+## The GitHub workflow for My Application Insights.
 
-The Git flow is a lightweight, branch-based workflow built around core Git commands. 
+The Git flow is a lightweight, branch-based workflow built around core Git commands.:
 
-1. **Clone Repository:** Create a local copy of a project that already exists remotely at preferred file location.
+* **Clone Repository:** Create a local copy of a project that already exists remotely at preferred file location. 
 
-   `------------------------------------------------------------------------  
-   git clone https://ConscienceIT@dev.azure.com/ConscienceIT/MAI/_git/MAI  
-   ------------------------------------------------------------------------`
+{% tabs %}
+{% tab title="Git Command" %}
+```
+$ git clone https://ConscienceIT@dev.azure.com/ConscienceIT/MAI/_git/MAI
+```
+{% endtab %}
 
-   [https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
+{% tab title="Links" %}
+```
+https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
 
-2. **Create a branch :** Before starting new task always create task specific branch from DEV branch. 
+```
+{% endtab %}
+{% endtabs %}
 
-   Task specific branch created from DEV allows team to contribute parallel along with other team members. These short-lived branches, in particular, keep team members focused about particular task.
+* **Create a branch :** Before starting new task always create task specific branch from DEV branch. 
+
+  Task specific branch created from DEV allows team to contribute parallel along with other team members. These short-lived branches, in particular, keep team members focused about particular task.$git clone https://ConscienceIT@dev.azure.com/ConscienceIT/MAI/\_git/MAI
+
+{% tabs %}
+{% tab title="Git Command" %}
+```
+$ git branch [BRANCH-NAME] 
+
+Instructions: BRANCH-NAME format => MAI_(DeveloperName)_(TaskNumber)
+```
+{% endtab %}
+
+{% tab title="Links" %}
+```
+
+```
+{% endtab %}
+{% endtabs %}
+
+* **Checkout newly created branch :** The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.
 
 
 
-   `-----------------------------------------------------------------------  
-   git branch [BRANCH-NAME]   
-  
-   BRANCH-NAME format => MAI_(DeveloperName)_(TaskNumber)  
-   -----------------------------------------------------------------------`  
+  `-----------------------------------------------------------------------  
+  git Chekcout [BRANCH-NAME]   
+  -----------------------------------------------------------------------`  
 
-   \*\*\*\*
+  \*\*\*\*[**https://www.atlassian.com/git/tutorials/using-branches/git-checkout**](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)\*\*\*\*
 
-3. **Checkout newly created branch :** The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.
+  \*\*\*\*
 
+* **Commit Code into local Repository:** Save snapshots of development efforts within working branch and completes the change-tracking process. Working in Git and saving changes is two step process.
+  1. Add Changes : The `git add` command adds a change in the working repository to the staging area. It tells Git that include particular file in the next commit. `-----------------------------------------------------------------------   
+     git add .  
+     git add all  
+     git add <fileNam>  
+     git add <directory>  
+     -----------------------------------------------------------------------` [**https://www.atlassian.com/git/tutorials/saving-changes**](https://www.atlassian.com/git/tutorials/saving-changes)
 
-
-   `-----------------------------------------------------------------------  
-   git Chekcout [BRANCH-NAME]   
-   -----------------------------------------------------------------------`  
-
-   \*\*\*\*[**https://www.atlassian.com/git/tutorials/using-branches/git-checkout**](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)\*\*\*\*
-
-   \*\*\*\*
-
-4. **Commit Code into local Repository:** Save snapshots of development efforts within working branch and completes the change-tracking process. Working in Git and saving changes is two step process.
-   1. Add Changes : The `git add` command adds a change in the working repository to the staging area. It tells Git that include particular file in the next commit. `-----------------------------------------------------------------------   
-      git add .  
-      git add all  
-      git add <fileNam>  
-      git add <directory>  
-      -----------------------------------------------------------------------` [**https://www.atlassian.com/git/tutorials/saving-changes**](https://www.atlassian.com/git/tutorials/saving-changes)
-
-   2. Git Commit : The `git commit` command captures a snapshot of project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.`-----------------------------------------------------------------------  git commit -m ["commit message"]  BRANCH-NAME format => MAI_(DeveloperName)_(TaskNumber)_(CommitMessage) -----------------------------------------------------------------------` [**https://www.atlassian.com/git/tutorials/saving-changes**](https://www.atlassian.com/git/tutorials/saving-changes)\*\*\*\*
+  2. Git Commit : The `git commit` command captures a snapshot of project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.`-----------------------------------------------------------------------  git commit -m ["commit message"]  BRANCH-NAME format => MAI_(DeveloperName)_(TaskNumber)_(CommitMessage) -----------------------------------------------------------------------` [**https://www.atlassian.com/git/tutorials/saving-changes**](https://www.atlassian.com/git/tutorials/saving-changes)\*\*\*\*
 
 \*\*\*\*
 

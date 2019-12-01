@@ -129,9 +129,9 @@ $ git push -u origin [BRANCH-NAME]
 {% endtab %}
 {% endtabs %}
 
-**Creating New Branch:** Again create fresh new  branch for new task, So each task assigned will have new repository.
+**Creating New Branch:** Again create fresh new branch for new task from latest DEV repository so that your work will be collaborated and sync with other team members, So each task assigned to each team member will have new repository.
 
-**Deleting Old/Unused Branches:** Developer suppose to delete local branches once testing Team approves your work.
+**Deleting Old/Unused Branches:** Developer suppose to delete local branches once testing Team approves your task. Remote branches automatically deleted once your code merged with TEST/master repository.
 
 
 

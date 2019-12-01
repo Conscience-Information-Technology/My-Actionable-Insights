@@ -135,13 +135,11 @@ $ git push -u origin [BRANCH-NAME]
 
 **Deleting Old/Unused Branches:** Developer suppose to delete local branches once TESTING Team approves your task. Remote branches automatically deleted once your code merged with DEV repository.
 
+~~~~
 
-
-
-
-
-
-
+* ~~**SQUASHING COMMITS**~~ **USING GIT REBASE**
+* [http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html)
+* [https://www.freecodecamp.org/news/an-introduction-to-git-merge-and-rebase-what-they-are-and-how-to-use-them-131b863785f/](https://www.freecodecamp.org/news/an-introduction-to-git-merge-and-rebase-what-they-are-and-how-to-use-them-131b863785f/)
 
 If you are beginner with git then you can visit following links and understand how git or github works.
 

@@ -28,7 +28,7 @@ https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
 **Pull latest code from centralised repository:** Before starting any new task always get latest updates from ****centralised DEV repository to local DEV repository. 
 
 {% tabs %}
-{% tab title="Plain Text" %}
+{% tab title="$ git pull" %}
 ```text
 $ git fetch origin DEV
 $ git pull origin DEV
@@ -90,8 +90,6 @@ https://www.atlassian.com/git/tutorials/using-branches/git-checkout
 ```
 $ git add .
 $ git add all
-$ git add <fileNam>
-$ git add <directory>
 ```
 {% endtab %}
 
@@ -122,16 +120,25 @@ https://www.atlassian.com/git/tutorials/saving-changes
 {% endtab %}
 {% endtabs %}
 
-**Push all commits to remote repository:** Save snapshots of development efforts within working branch and completes the change-tracking process. Working in Git and saving changes is two step process.
+**Push all commits to remote repository:**  The `git push` command is used to upload local repository content to a remote repository. Following command creates local branch at remote origin 
 
-1. **Open a pull request:** Pull requests publish a project’s ongoing efforts and set the tone for a transparent development process.
-2. **Discuss and review code:** Teams participate in code reviews by commenting, testing, and reviewing open pull requests. Code review is at the core of an open and participatory culture.
-3. **Merge:** Upon clicking merge, GitHub automatically performs the equivalent of a local ‘git merge’ operation. GitHub also keeps the entire branch development history on the merged pull request.
-4. **Deploy:** Teams can choose the best release cycles or incorporate continuous integration tools and operate with the assurance that code on the deployment branch has gone through a robust workflow.
+{% tabs %}
+{% tab title="Git Push" %}
+```text
+$ git push -u origin [BRANCH-NAME]
+```
+{% endtab %}
+{% endtabs %}
+
+**Creating New Branch:** Again create fresh new  branch for new task, So each task assigned will have new repository.
+
+**Deleting Old/Unused Branches:** Developer suppose to delete local branches once testing Team approves your work.
 
 
 
-sdfsf
+
+
+
 
 If you are beginner with Git then first of all visit following links.
 

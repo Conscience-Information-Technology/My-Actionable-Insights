@@ -34,16 +34,18 @@ $ git branch [BRANCH-NAME]
 ```
 {% endtab %}
 
+{% tab title="Instructions" %}
+```
+BRANCH-NAME format => MAI(DeveloperName)(TaskNumber)_(CommitMessage)
+```
+{% endtab %}
+
 {% tab title="Links" %}
 ```
 
 ```
 {% endtab %}
 {% endtabs %}
-
-{% hint style="info" %}
-Instructions: BRANCH-NAME format =&gt; MAI_\(DeveloperName\)_\(TaskNumber\)
-{% endhint %}
 
 **Checkout newly created branch :** The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.
 
@@ -90,18 +92,18 @@ $ git commit -m ["commit message"]
 ```
 {% endtab %}
 
+{% tab title="Instructions" %}
+```
+BRANCH-NAME format => MAI(DeveloperName)(TaskNumber)_(CommitMessage)
+```
+{% endtab %}
+
 {% tab title="Links" %}
 ```
 https://www.atlassian.com/git/tutorials/saving-changes
 ```
 {% endtab %}
 {% endtabs %}
-
-{% hint style="info" %}
-BRANCH-NAME format =&gt; MAI_\(DeveloperName\)_\(TaskNumber\)\_\(CommitMessage\)
-{% endhint %}
-
-\*\*\*\*
 
 \*\*\*\*
 

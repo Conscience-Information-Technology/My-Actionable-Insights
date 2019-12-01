@@ -1,7 +1,8 @@
 ---
 description: >-
   The Git workflow for My Application Insights, developers expected to use only
-  Git Bash for workflow.
+  Git Bash for workflow. We are using very lightweight, branch-based workflow
+  built around core Git commands.
 ---
 
 # Git Workflow
@@ -138,12 +139,12 @@ $ git push -u origin [BRANCH-NAME]
 
 
 
-If you are beginner with Git then first of all visit following links.
+If you are beginner with git then you can visit following links and understand how git or github works.
 
 * [https://guides.github.com/](https://guides.github.com/).
-* \*\*\*\*[**https://www.youtube.com/playlist?list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4**](https://www.youtube.com/playlist?list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4)\*\*\*\*
-* \*\*\*\*[**https://www.atlassian.com/git/tutorials**](https://www.atlassian.com/git/tutorials)\*\*\*\*
-* \*\*\*\*[**https://learngitbranching.js.org/**](https://learngitbranching.js.org/)\*\*\*\*
-* \*\*\*\*[**http://git-school.github.io/visualizing-git/**](http://git-school.github.io/visualizing-git/)\*\*\*\*
-* \*\*\*\*[**https://github.github.com/training-kit/downloads/github-git-cheat-sheet/**](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)\*\*\*\*
+* [https://www.youtube.com/playlist?list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4](https://www.youtube.com/playlist?list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4)
+* [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
+* [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
+* [http://git-school.github.io/visualizing-git/](http://git-school.github.io/visualizing-git/)
+* [https://github.github.com/training-kit/downloads/github-git-cheat-sheet/](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)
 

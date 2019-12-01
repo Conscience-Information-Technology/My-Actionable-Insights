@@ -1,12 +1,10 @@
 ---
-description: 'My Actionable Insights: developers expected to use only Git Bash for workflow.'
+description: >-
+  The Git workflow for My Application Insights, developers expected to use only
+  Git Bash for workflow.
 ---
 
 # Git Workflow
-
-## The GitHub workflow for My Application Insights.
-
-The Git flow is a lightweight, branch-based workflow built around core Git commands.:
 
 **Clone Repository:** Create a local copy of a project that already exists remotely at preferred file location. 
 

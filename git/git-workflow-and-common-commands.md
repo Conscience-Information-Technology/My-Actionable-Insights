@@ -8,7 +8,7 @@ description: 'My Actionable Insights: developers expected to use only Git Bash f
 
 The Git flow is a lightweight, branch-based workflow built around core Git commands.:
 
-* **Clone Repository:** Create a local copy of a project that already exists remotely at preferred file location. 
+**Clone Repository:** Create a local copy of a project that already exists remotely at preferred file location. 
 
 {% tabs %}
 {% tab title="Git clone " %}
@@ -25,9 +25,9 @@ https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
 {% endtab %}
 {% endtabs %}
 
-* **Create a branch:** Before starting new task always create task specific branch from DEV branch. 
+**Create a branch:** Before starting new task always create task specific branch from DEV branch. 
 
-  Task specific branch created from DEV allows team to contribute parallel along with other team members. These short-lived branches, in particular, keep team members focused about particular task.
+Task specific branch created from DEV allows team to contribute parallel along with other team members. These short-lived branches, in particular, keep team members focused about particular task.
 
 {% tabs %}
 {% tab title="Git Branch" %}

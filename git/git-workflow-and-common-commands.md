@@ -102,7 +102,7 @@ https://www.atlassian.com/git/tutorials/saving-changes
 {% tabs %}
 {% tab title="Git Commit" %}
 ```
-$ git commit -m ["commit message"]
+$ git commit -m "[commit message]"
 ```
 {% endtab %}
 

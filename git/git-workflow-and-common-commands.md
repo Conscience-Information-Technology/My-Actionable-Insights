@@ -129,9 +129,13 @@ $ git push -u origin [BRANCH-NAME]
 {% endtab %}
 {% endtabs %}
 
-**Creating New Branch:** Again create fresh new branch for new task from latest DEV repository so that your work will be collaborated and sync with other team members, So each task assigned to each team member will have new repository.
+**Open a Pull Request:** Newly uploaded will merged into DEV repository once code reviewed by responsible person, for that Developer need to create Pull request at GitHub/DevOps portal. Pull Requests initiate discussion about code, they're tightly integrated with underlying Git repository, anyone can see exactly what changes would be merged. Once code reviewer accept your changes then your code will be automatically merged with DEV branch.
 
-**Deleting Old/Unused Branches:** Developer suppose to delete local branches once testing Team approves your task. Remote branches automatically deleted once your code merged with TEST/master repository.
+**Creating New Branch:** Again create fresh new branch for new task from latest DEV repository so that your work will be collaborated and sync with other team members, So each task assigned to each team member will have new repository. \([https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)\)
+
+**Deleting Old/Unused Branches:** Developer suppose to delete local branches once TESTING Team approves your task. Remote branches automatically deleted once your code merged with DEV repository.
+
+
 
 
 

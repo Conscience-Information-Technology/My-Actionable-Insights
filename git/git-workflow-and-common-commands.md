@@ -147,6 +147,7 @@ If you are beginner with git then you can visit following links and understand h
 
 * [https://guides.github.com/](https://guides.github.com/).
 * [https://www.youtube.com/playlist?list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4](https://www.youtube.com/playlist?list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4)
+* [http://gitready.com/](http://gitready.com/)
 * [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
 * [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
 * [http://git-school.github.io/visualizing-git/](http://git-school.github.io/visualizing-git/)

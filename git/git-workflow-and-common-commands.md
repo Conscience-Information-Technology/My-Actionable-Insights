@@ -25,9 +25,7 @@ https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
 {% endtab %}
 {% endtabs %}
 
-**Create a branch:** Before starting new task always create task specific branch from DEV branch. 
-
-Task specific branch created from DEV allows team to contribute parallel along with other team members. These short-lived branches, in particular, keep team members focused about particular task.
+**Create a branch:** Before starting new task always create task specific branch from DEV branch. Task specific branch created from DEV allows team to contribute parallel along with other team members. These short-lived branches, in particular, keep team members focused about particular task.
 
 {% tabs %}
 {% tab title="Git Branch" %}
@@ -47,7 +45,7 @@ $ git branch [BRANCH-NAME]
 Instructions: BRANCH-NAME format =&gt; MAI_\(DeveloperName\)_\(TaskNumber\)
 {% endhint %}
 
-* **Checkout newly created branch :** The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.
+**Checkout newly created branch :** The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.
 
 {% tabs %}
 {% tab title="Git Checkout" %}
@@ -63,9 +61,10 @@ https://www.atlassian.com/git/tutorials/using-branches/git-checkout
 {% endtab %}
 {% endtabs %}
 
-* **Commit Code into local Repository:** Save snapshots of development efforts within working branch and completes the change-tracking process. Working in Git and saving changes is two step process.
-  * **Add Changes :** The `git add` command adds a change in the working repository to the staging area. It tells Git that include particular file in the next commit.
-  * **Git Commit :** The `git commit` command captures a snapshot of project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.
+**Commit Code into local Repository:** Save snapshots of development efforts within working branch and completes the change-tracking process. Working in Git and saving changes is two step process.
+
+* **Add Changes :** The `git add` command adds a change in the working repository to the staging area. It tells Git that include particular file in the next commit.
+* **Git Commit :** The `git commit` command captures a snapshot of project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.
 
 {% tabs %}
 {% tab title="Git Add" %}

@@ -119,7 +119,7 @@ https://www.atlassian.com/git/tutorials/saving-changes
 {% endtab %}
 {% endtabs %}
 
-**Push all commits to remote repository:**  The `git push` command is used to upload local repository content to a remote repository. Following command creates local branch at remote origin 
+**Push all commits to remote repository:**  The `git push` command is used to upload local repository content to a remote repository. Following command creates local branch at remote origin.
 
 {% tabs %}
 {% tab title="Git Push" %}

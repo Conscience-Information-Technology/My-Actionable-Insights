@@ -147,4 +147,5 @@ If you are beginner with git then you can visit following links and understand h
 * [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
 * [http://git-school.github.io/visualizing-git/](http://git-school.github.io/visualizing-git/)
 * [https://github.github.com/training-kit/downloads/github-git-cheat-sheet/](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)
+* [https://dzone.com/articles/top-20-git-commands-with-examples](https://dzone.com/articles/top-20-git-commands-with-examples)
 

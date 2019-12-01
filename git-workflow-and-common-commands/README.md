@@ -27,7 +27,7 @@ https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
 
 * **Create a branch :** Before starting new task always create task specific branch from DEV branch. 
 
-  Task specific branch created from DEV allows team to contribute parallel along with other team members. These short-lived branches, in particular, keep team members focused about particular task.$git clone https://ConscienceIT@dev.azure.com/ConscienceIT/MAI/\_git/MAI
+  Task specific branch created from DEV allows team to contribute parallel along with other team members. These short-lived branches, in particular, keep team members focused about particular task.
 
 {% tabs %}
 {% tab title="Git Command" %}
@@ -47,15 +47,19 @@ Instructions: BRANCH-NAME format => MAI_(DeveloperName)_(TaskNumber)
 
 * **Checkout newly created branch :** The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.
 
+{% tabs %}
+{% tab title="Git Command" %}
+```
+$ git Chekcout [BRANCH-NAME] 
+```
+{% endtab %}
 
-
-  `-----------------------------------------------------------------------  
-  git Chekcout [BRANCH-NAME]   
-  -----------------------------------------------------------------------`  
-
-  \*\*\*\*[**https://www.atlassian.com/git/tutorials/using-branches/git-checkout**](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)\*\*\*\*
-
-  \*\*\*\*
+{% tab title="Links" %}
+```
+https://www.atlassian.com/git/tutorials/using-branches/git-checkout
+```
+{% endtab %}
+{% endtabs %}
 
 * **Commit Code into local Repository:** Save snapshots of development efforts within working branch and completes the change-tracking process. Working in Git and saving changes is two step process.
   1. Add Changes : The `git add` command adds a change in the working repository to the staging area. It tells Git that include particular file in the next commit. `-----------------------------------------------------------------------   

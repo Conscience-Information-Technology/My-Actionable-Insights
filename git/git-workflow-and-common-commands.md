@@ -1,8 +1,8 @@
 ---
 description: >-
   The Git workflow for My Application Insights, developers expected to use only
-  Git Bash for workflow. We are using very lightweight, branch-based workflow
-  built around core Git commands.
+  Git Bash for Git and Git Repositorie. We are using very lightweight,
+  branch-based workflow built around core Git commands.
 ---
 
 # Git Workflow
@@ -30,6 +30,7 @@ https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
 {% tab title="$ git pull" %}
 ```text
 $ git fetch origin DEV
+                       //As per Depending requiremtnt.
 $ git pull origin DEV
 ```
 {% endtab %}
@@ -46,6 +47,7 @@ https://www.atlassian.com/git/tutorials/syncing/git-pull
 {% tabs %}
 {% tab title="Git Branch" %}
 ```
+$ git checkout DEV
 $ git branch [BRANCH-NAME]
 ```
 {% endtab %}
@@ -135,9 +137,7 @@ $ git push -u origin [BRANCH-NAME]
 
 **Deleting Old/Unused Branches:** Developer suppose to delete local branches once TESTING Team approves your task. Remote branches automatically deleted once your code merged with DEV repository.
 
-~~~~
-
-* ~~**SQUASHING COMMITS**~~ **USING GIT REBASE**
+* _**SQUASHING COMMITS**_ **USING GIT REBASE**
 * [http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html)
 * [https://www.freecodecamp.org/news/an-introduction-to-git-merge-and-rebase-what-they-are-and-how-to-use-them-131b863785f/](https://www.freecodecamp.org/news/an-introduction-to-git-merge-and-rebase-what-they-are-and-how-to-use-them-131b863785f/)
 

@@ -2,6 +2,10 @@
 
 * [My Actionable Insights](README.md)
 
+## xAPI Statement Info
+
+* [Statment 101](xapi-statement-info/statment-101.md)
+
 ## Git
 
 * [Git Workflow](git/git-workflow-and-common-commands.md)

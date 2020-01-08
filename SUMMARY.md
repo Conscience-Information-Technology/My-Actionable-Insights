@@ -11,7 +11,7 @@
 * [Git Workflow](git/git-workflow-and-common-commands.md)
 * [Common Git Commands](git/git-common-commands.md)
 * [Useful Links](useful-links/README.md)
-  * [coding habits](useful-links/coding-habits.md)
+  * [Coding Habits](useful-links/coding-habits.md)
   * [JSON Schema + yaml links](useful-links/json-schema-+-yaml-links.md)
   * [Useful .Net GitHub Solutions](useful-links/useful-.net-github-solutions.md)
   * [Asp.net Core links](useful-links/asp.net-core-links.md)

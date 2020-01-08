@@ -1,4 +1,4 @@
-# coding habits
+# Coding Habits
 
 [http://notes.webutvikling.org/7-ineffective-coding-habits/](http://notes.webutvikling.org/7-ineffective-coding-habits/)
 

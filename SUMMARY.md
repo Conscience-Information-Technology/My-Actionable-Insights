@@ -10,7 +10,7 @@
 
 * [Git Workflow](git/git-workflow-and-common-commands.md)
 * [Common Git Commands](git/git-common-commands.md)
-* [Useful Links](useful-links/README.md)
+* [Knowledge Base](useful-links/README.md)
   * [Coding Habits](useful-links/coding-habits.md)
   * [JSON Schema](useful-links/json-schema-+-yaml-links/README.md)
     * [Useful links](useful-links/json-schema-+-yaml-links/useful-links.md)

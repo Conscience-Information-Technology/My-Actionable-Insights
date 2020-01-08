@@ -1,4 +1,4 @@
-# JSON Schema + yaml links
+# Useful links
 
 [https://wiki.ivoa.net/internal/IVOA/InterOpMay2017-DM/JSON-Schema\_LM.pdf](https://wiki.ivoa.net/internal/IVOA/InterOpMay2017-DM/JSON-Schema_LM.pdf)[https://techblog.constantcontact.com/api/using-json-schema-to-validate-web-service-requests/](https://techblog.constantcontact.com/api/using-json-schema-to-validate-web-service-requests/)  
 [https://brandur.org/elegant-apis](https://brandur.org/elegant-apis)  
@@ -20,10 +20,4 @@
 [https://json-reference.thephpleague.com/simple-example](https://json-reference.thephpleague.com/simple-example)
 
 [l](https://tools.ietf.org/id/draft-handrews-json-schema-validation-00.html)[http://adlnet.github.io/xapi-statement-viewer/](http://adlnet.github.io/xapi-statement-viewer/)\(activity interaction type\)
-
-
-
-
-
-
 

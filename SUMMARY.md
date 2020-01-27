@@ -14,7 +14,9 @@
   * [Coding Habits](useful-links/coding-habits.md)
   * [JSON Schema](useful-links/json-schema-+-yaml-links/README.md)
     * [Useful links](useful-links/json-schema-+-yaml-links/useful-links.md)
-  * [Useful .Net GitHub Solutions](useful-links/useful-.net-github-solutions.md)
   * [Asp.net Core links](useful-links/asp.net-core-links.md)
+  * [Asp.net Core Testing links](useful-links/asp.net-core-testing-links.md)
+  * [Useful .Net GitHub Solutions](useful-links/useful-.net-github-solutions.md)
+  * [OpenApi, JsonSchema](useful-links/openapi-jsonschema.md)
   * [.Net Freshers Training Sites](useful-links/.net-freshers-training-sites.md)
 
